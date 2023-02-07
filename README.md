@@ -1,2 +1,2 @@
 # My-Portfolio
-My Portfolio Designed in React with 100% responsiveness.
+My Portfolio is Designed in ReactJS with 100% responsiveness.
