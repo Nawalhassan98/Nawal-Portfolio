@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 ;
+  font-family: 'Source Sans Pro', sans-serif;
+  transition: all 0.9s ease-out;
+  
+}
+
+.centered {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+body{
+  
+  background-color: #E6E6FA;
+    overflow-x: hidden;
+    
+}
+
+h1,a{
+  color:white;
+  text-decoration: none;  
+}
+
+
+ul{
+  list-style-type: none;  
+}
+

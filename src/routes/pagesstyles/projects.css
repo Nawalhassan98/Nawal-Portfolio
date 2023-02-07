@@ -1,0 +1,70 @@
+/* body{
+    position:relative;
+    z-index: -3;
+} */
+
+p{
+    line-height: 1rem;
+}
+.heading
+{
+    padding-right: 2rem;
+    padding-left: 1.8rem;
+   
+}
+
+
+/* h4,p{
+    color:#9370DB
+} */
+.heading2{
+ padding-bottom: 2rem;
+ font-weight: 300;
+ font-size: 1.3rem;
+ padding-top: -0.2rem;
+ padding-right: 1rem;
+ padding-left: 1.8rem;
+}
+
+.divbutton{
+ display: flex;
+ justify-content: flex-end;
+ 
+}
+
+.buttonProject{
+padding:10px 14px; /*top-to-bottom  left-to-right*/ /*it will change the size of linkbutton*/
+font-size: 1rem;
+/* background-color: #9370DB; */
+background-color:transparent;
+color: black;
+border: 4px solid white;
+font-weight: 600;
+cursor: pointer;
+margin:4px; /*this will add spacing b/w buttons*/
+
+}
+
+.buttonProject:hover{
+    
+    background-color:#F8F8FF;
+    color: #808080;
+    font-weight: 600;
+    transition: 0.3s;
+    text-decoration: underline;
+    
+  }
+ 
+/* .ResumeProjectsBlock-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    margin-right: 23rem;
+    background-color: #DCDCDC;
+    border-radius: 50%;
+    color: white;
+    
+} */
+

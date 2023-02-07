@@ -1,0 +1,56 @@
+.heading{
+    text-align: center;
+    color: blueviolet;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-weight: 500;
+}
+
+.verticaltimeline{
+  padding-bottom: 1rem;
+
+}
+/* These styles are applied to flipcards which are in 'resume' page */
+.interest{
+ font-weight: 500;
+ padding-top: 3rem;
+ padding-bottom: 1rem;
+ text-align: center;
+ color:blueviolet;
+ max-width: 100%;
+ transform: translate(0%,120%);
+ 
+ 
+}
+.flipcards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  margin: 1rem auto;
+  max-width: 100%;
+  padding-top: 10rem;
+  margin-bottom: 2rem;
+  padding-bottom: 10rem;
+  background-color: #B0C4DE;
+  
+}
+
+
+.skills{
+  font-weight: 600;
+  font-size: 3rem;
+  padding-top: 3rem;
+  text-align: center;
+  color: #778899;
+  
+}
+
+.skillcards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  max-width: 100%;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  
+}

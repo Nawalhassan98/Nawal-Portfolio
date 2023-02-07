@@ -1,0 +1,158 @@
+
+.icon{
+    padding-top: 2rem;
+    font-size: 200%;
+}
+
+.title{
+    padding: 2rem 3rem 2rem rem;
+    font-weight: 400;
+}
+.description{
+    text-align: center;
+    padding:2rem;
+    font-weight: 400;
+    
+}
+.flip-card {
+    background-color: transparent;
+    width: 170px;
+    height: 160px;
+    margin: 1rem 1rem 1rem 1.8rem;
+    perspective: 1000px;  
+  }
+  
+ 
+  .flip-card-inner {
+    border-radius: 40%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align:center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+ 
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+
+  h2{
+    text-align: center;
+   
+  }
+  
+  
+  .flip-card-front {
+    background-color: blueviolet ;
+    color: white;
+   
+  }
+  
+  
+  .flip-card-back {
+    background-color: darkblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+// @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+// body {
+//   font-family: 'Ubuntu', sans-serif;
+//   background-image: radial-gradient(farthest-corner at 40px 40px,
+//   #f35 0%, #43e 100%);
+// }
+
+// .container {
+//   height: 100vh;
+// }
+
+// .flip-card-outer {
+//   width: 300px;
+//   height: 400px;
+//   margin: 25px 0;
+
+//   &.focus-trigger:focus {
+//     outline: 5px solid greenyellow;
+//     outline-offset: 5px;
+//   }
+
+//   .flip-card-inner {
+//     transform-style: preserve-3d;
+//     transition: .5s linear .1s;
+//     position: relative;
+//     width: inherit;
+//     height: inherit;
+
+//     &.hover-trigger:hover {
+//       transform: rotateY(180deg);
+//     }
+
+//     &.showBack {
+//       transform: rotateY(180deg);
+//     }
+  
+//     .card {
+//       backface-visibility: hidden;
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       width: 100%;
+//       height: 100%;
+  
+//       &.front {
+//         transform: rotateY(0);
+//         background-color: #2d2d2d;
+//         color: #fff;
+//       }
+  
+//       &.back {
+//         transform: rotateY(180deg);
+//         background-color: #fff;
+//         color: #2d2d2d;
+//       }
+//     }
+//   }
+// } */

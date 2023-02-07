@@ -1,0 +1,91 @@
+.skillicon{
+    padding-top: 2rem;
+    font-size: 500%;
+}
+
+.skilltitle{
+    padding: 2rem 3rem 2rem rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.skilldescription{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    
+}
+.skill-card {
+    width: 250px;
+    height: 330px;
+    border: 1px solid #f1f1f1;
+    box-shadow: 2px solid black;
+    margin: 1rem 1rem 1rem 4rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    margin-right: 3rem ;
+
+   
+  }
+  
+ 
+  .skill-card-inner {
+    border-radius: 40%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align:center;
+    transition: transform 0.8s;
+    
+  }
+  
+  
+  .skill-card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 10px lightslategray;
+   
+  }
+
+  h2{
+    text-align: center;
+   
+  }
+  
+
+  .skill-card-front {
+    background-color: #B0C4DE ;
+    color: white;
+   
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,117 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+     background-color: #9370DB;
+    color:white;
+    position: relative;  
+    width:100%; 
+    height:100px;
+    z-index:1;  
+}
+
+h1{
+    margin-left: 1rem;
+}
+
+h1 .title{
+font-size: 1.7rem;
+font-weight: 200;
+padding-left: 0.5rem;
+text-decoration: none;
+}
+
+.header h1:hover{
+   
+    color:#DCDCDC;
+    font-weight: 400;
+    
+}
+
+.nav-menu{     
+    display: flex;                  
+}
+
+.nav-menu li{         
+     padding:0 1rem;     
+     margin-right: 1rem;
+}
+
+.nav-menu a{    
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.nav-menu a:hover{   
+   
+    color:#DCDCDC;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.hamburger{
+    display: none;
+}
+
+.hamburger:hover{
+
+    color:#DCDCDC
+    
+}
+
+@media screen and (max-width: 1028px){
+    .nav-menu{
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-color:#9370DB;
+        position: absolute;
+        top:0;
+        left:-100%; 
+        z-index: -1;
+        transition: 0.3s;
+       
+    }
+    
+    .nav-menu.active{  
+        left:0;
+       
+    }
+    .nav-menu li{
+        padding: 1rem 0;
+    }
+    .nav-menu a{
+        font-size:  2rem;
+    }
+    .hamburger{
+        display: initial;
+        padding-right: 1.3rem;
+        padding-top: 0.5rem;
+    }
+    h1{
+        padding-left: 0.1rem;
+    }
+   
+}
+
+@media screen and (max-width: 600px){
+    h1 .title{
+        visibility: hidden;
+        transition: none;
+    }
+    .hamburger{
+        padding-right: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 526px){
+     .title-heading{
+       margin-top: 2.3rem;
+       transition: none;
+    }
+}
+
